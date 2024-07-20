@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import HolaMundo from './components/HolaMundo';
+import Button from './components/Button';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HolaMundo />
+    <Button text = "Click 2" />
   </React.StrictMode>
 );
 
